@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- my css -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <title>Commerce App Web</title>
+  </head>
+  <body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#"><strong>Commerce App</strong><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtQ12X5rUNNZsiSliyFZQT9Oe3yNxLRTFXLA&usqp=CAU" class="rounded-circle img-logo" width="27"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="falsess" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" aria-current="page" href="index.html">Produk</a>
+            <a class="nav-link" href="keranjang.html">Keranjang</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+   
+    <!-- Produk -->
+    <div class="container produk">
+      <h1 class="mt-2">Daftar Produk</h1>
+      <div class="row">
+        <div class="col-md-4 col-sm-12 mt-2">
+          <div class="card shadow">
+            <img src="https://images.unsplash.com/photo-1546435770-a3e426bf472b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aGVhZHNldHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="produk1">
+            <div class="card-body">
+              <h3 class="card-title">Headset Wireless</h3>
+              <h5 class="card-text">Rp.150.000</h5>
+              <a href="#" class="btn btn-dark" onclick="tampilkan()">masuk keranjang</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-12 mt-2">
+          <div class="card shadow">
+            <img src="https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8bW91c2V8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="produk2">
+            <div class="card-body">
+              <h3 class="card-title">Mouse Logitech</h3>
+              <h5 class="card-text">Rp.120.000</h5>
+              <a href="#" class="btn btn-dark" onclick="tampilkan()">masuk keranjang</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-12 mt-2">
+          <div class="card shadow">
+            <img src="https://images.unsplash.com/photo-1602025882379-e01cf08baa51?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bWVjaGFuaWNhbCUyMGtleWJvYXJkfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="produk3">
+            <div class="card-body">
+              <h3 class="card-title">Mechanical Keyboard</h3>
+              <h5 class="card-text">Rp.890.000</h5>
+              <a href="#" class="btn btn-dark" onclick="tampilkan()">masuk keranjang</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-12 mt-2">
+          <div class="card shadow">
+            <img src="https://images.unsplash.com/photo-1555616635-640b71bdb185?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8cHJvY2Vzc29yfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="produk4">
+            <div class="card-body">
+              <h3 class="card-title">Intel Core I9</h3>
+              <h5 class="card-text">Rp.800.000</h5>
+              <a href="#" class="btn btn-dark" onclick="tampilkan()">masuk keranjang</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-12 mt-2">
+          <div class="card shadow">
+            <img src="https://images.unsplash.com/photo-1592155931584-901ac15763e3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGdhbWVwYWR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="produk5">
+            <div class="card-body">
+              <h3 class="card-title">Gamepad PS4</h3>
+              <h5 class="card-text">Rp.285.000</h5>
+              <a href="#" class="btn btn-dark" onclick="tampilkan()">masuk keranjang</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-12 mt-2">
+          <div class="card shadow">
+            <img src="https://images.unsplash.com/photo-1575024357670-2b5164f470c3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGxhcHRvcHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="produk1">
+            <div class="card-body">
+              <h3 class="card-title">Laptop Aspired</h3>
+              <h5 class="card-text">Rp.5.600.000</h5>
+              <a href="#" class="btn btn-dark" onclick="tampilkan()">masuk keranjang</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br>
+
+   <!-- Footer -->
+   <footer>
+     <h5 class="text-center"><strong>&copy;CommerceApp2022</strong></h5>
+   </footer>
+
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
